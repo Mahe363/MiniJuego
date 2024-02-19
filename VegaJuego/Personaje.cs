@@ -58,6 +58,8 @@ namespace VegaJuego
             caja.Size = new System.Drawing.Size(110, 110);
             caja.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             caja.BackgroundImage = global::VegaJuego.Properties.Resources.derecha;
+
+            vegaZelda.Controls.Add(caja); caja.Visible = true;
         }
 
     }

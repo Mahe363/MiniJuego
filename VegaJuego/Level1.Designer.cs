@@ -34,6 +34,7 @@
             // Level1
             // 
             AutoScaleMode = AutoScaleMode.None;
+            BackColor = SystemColors.Control;
             BackgroundImage = Properties.Resources.FondoFinal;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(806, 467);
@@ -43,6 +44,7 @@
             Name = "Level1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "VegaZelda";
+            KeyPress += Level1_KeyPress;
             ResumeLayout(false);
         }
 
