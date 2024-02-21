@@ -43,6 +43,14 @@ namespace VegaJuego
                 Player.Salud = Player.Salud - 1;
             }
             Enemigo1.mover();
+
+            if(Player.Salud <= 0)
+            {
+                this.Hide();
+                Final End = new Final();
+                MovEnemigos.Stop();
+                End.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
