@@ -24,7 +24,7 @@ namespace VegaJuego
 
         public void IniciarOpcionesDelMapa(CheckBox onOff)
         {
-            if(onOff.Checked = true)
+            if(onOff.Checked == true)
             {
                 musica= new SoundPlayer(global::VegaJuego.Properties.Resources.sonido);
                 musica.PlayLooping();
