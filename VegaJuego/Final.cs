@@ -21,5 +21,10 @@ namespace VegaJuego
         {
             Application.Exit();
         }
+
+        private void Level1_FormClossed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
